@@ -4,7 +4,9 @@ pipeline {
   stages{
     
     stage('getCode') {
-      echo "Hello World!"
+      steps {
+        println("Hello World !")
+      }
     }
     
   }
